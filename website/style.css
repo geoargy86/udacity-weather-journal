@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+body {
+  background: #fffff8;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+  display: grid;
+  grid-auto-rows: minmax(150px, auto);
+  /* grid-template-columns:  */
+  height: 100vh;
+  background: #7a90c0;
+  color: #030101;
+  justify-content: center;
+  grid-gap: 0.3em;
+  font-size: 16px;
+  font-family: 'Girassol', cursive;;
+}
+
+.holder {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+.holder input,
+.holder textarea {
+  padding: 0.5em;
+}
+
+.entry {
+  background: rgba(59, 74, 107, 0.4);
+}
+
+#zip {
+  border: 2px solid white;
+  background: #226cda;
+}
+
+#zip.error {
+  border: 2px solid #226cda;
+}
+
+#conditions {
+  display: flex;
+  flex-direction: row;
+}
+
+#conditions p {
+  margin: 0;
+}
+
+#conditions img {
+  width: auto;
+  height: 2em;
+}
+
+#entryHolder {
+}
+
+#date {
+}
+
+#temp {
+}
+
+#content {
+} */
+
+.headline {
+  font-family: 'Girassol', cursive;
+  font-size: 5em;
+}
+
+.title {
+}
+
+#generate:hover {
+  background-color: #ee19197a;
+  color: #226cda;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+  display: block;
+  font-size: 27px;
+}
+
+input {
+  display: block;
+  height: 60px;
+  width: 320px;
+  color: #f0cf15;
+  font-size: 20px;
+  font-family: 'Girassol', cursive;;
+  border: none;
+}
+
+button {
+  width: 100%;
+  height: 100px;
+  background: #3b4a6b;
+  color: #f0d43a;
+  font-size: 26px;
+  font-family: 'Girassol', cursive;;
+  border: none;
+  box-shadow: 2px 4px 5px #444;
+  margin: 1em auto;
+  cursor: pointer;
+}
+h1 {
+  font-size: 46px;
+}
+
+textarea {
+  background: #226cda;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: 'Girassol', cursive;
+  border: 2px solid white;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: #f0d43a;
+  font-family: 'Girassol', cursive;;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #f0d43a;
+  font-family: 'Girassol', cursive;;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #f0d43a;
+  font-family: 'Girassol', cursive;;
+}
